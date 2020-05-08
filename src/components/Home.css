@@ -1,0 +1,177 @@
+.HeaderHome {
+  background-color: #f7f7f7;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px rgba(219, 207, 207, 0.8);
+}
+
+.kiri {
+  flex: 1;
+}
+
+.Logo {
+  flex: 1;
+  margin-top: 10px;
+  height: 130px;
+  width: 180px;
+  margin-left: 30px;
+}
+
+.marquee {
+  margin-right: 30px;
+  flex: 1;
+}
+
+.marquee > p {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 40px;
+  color: #00ff00;
+}
+
+.body {
+  flex: 1;
+}
+
+.kasus {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.negara > p {
+  font-size: 30px;
+  font-weight: bold;
+  flex: 1;
+  text-align: center;
+  margin-top: 15px;
+  color: #000099;
+}
+
+.Meninggal {
+  width: 300px;
+  height: 150px;
+  background-color: red;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.Meninggal > p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Sembuh {
+  flex: 1;
+  width: 300px;
+  height: 150px;
+  background-color: #00ff00;
+  border-radius: 10px;
+}
+
+.Sembuh > p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Positif {
+  flex: 1;
+  width: 300px;
+  height: 150px;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.Positif > p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+/* 
+.Sembuh {
+  flex: 1;
+  width: 300px;
+  height: 150px;
+  background-color: #00ff00;
+  border-radius: 10px;
+}
+
+.Sembuh > p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Meninggal {
+  flex: 1;
+  width: 300px;
+  height: 150px;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.Meninggal > p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+} */
+
+.banner {
+  /* background-color: red; */
+  display: flex;
+  height: 200px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.pembungkus-search {
+  justify-content: center;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  height: 40px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  margin-top: -25px;
+  border-width: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.search {
+  width: 85%;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  border: 0px;
+  padding: 20px 0px;
+  margin-left: 5px;
+}
+
+.searchlogo {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin-top: -37px;
+  margin-right: 22px;
+  cursor: pointer;
+}
+
+.Provinsi > p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
